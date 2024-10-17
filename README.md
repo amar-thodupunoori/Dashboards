@@ -1,31 +1,26 @@
-# Profiles REST api 
-1. INSTALL FLASK 
-```sh
-    pip install flask
-```
-2. INSTALL PSYCOPG2
-```sh
-    pip install psycopg2
-```
-3. INSTALL POSTMAN (for testing)
-4. INSTALL POSTGRESQL
-5. Open editor (visual studio code)
-6. Go to Profiles 
-7. Run the code present in the file HE.py
-8. Copy the link provided
-9. Open postman and goto localhost:5000/profiles and use Get method to view the list
-```sh
-    localhost:5000/profiles
-```
-10. To add more to the list change the method to Post and provide Name, DOB and Status
+# Analyzing Amazon Electronics Sales Data with Python
 
-11. To edit the list change the method to Put and provide the Name and modified Status
+## Description:
 
-12. To delete a user from the list change the method to Delete and provided Name
+This project delves into the world of online electronics sales by analyzing a dataset from Amazon. Using Python libraries and guided by data science principles, we'll uncover valuable insights into customer behavior, product performance, and sales trends. This exploration will aid in understanding market dynamics and potentially inform strategic business decisions.
 
-13. To view the list of the profiles whose status is paused goto localhost:5000/profiles/paused
-```sh
-   localhost:5000/profiles/paused
-```
+### Technologies:
+
+Python (Data analysis and visualization)
+Libraries: Pandas (Data manipulation), NumPy (Numerical computing), Matplotlib/Seaborn (Data visualization)
+
+### Dataset:
+The dataset used in this project is available publicly on Kaggle: https://www.kaggle.com/datasets/edusanketdk/electronics
+
+Please note that you may need to create a free Kaggle account to access the dataset.
+
+
+### Task List:
+
+- [ ] Import libraries and load data
+- [ ] Clean and preprocess data
+- [ ] Conduct exploratory data analysis
+- [ ] Draw conclusions and insights
+
 
 
